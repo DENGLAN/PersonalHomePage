@@ -16,6 +16,9 @@ $(function(){
     });
 
     $("#BackTop").on("click",function(){
+        old.removeClass("changeBack");
+        old = $($(".js_nav").get(5));
+        old.addClass("changeBack");
         $("html,body").animate({scrollTop:0});   //回到顶部
     })
 });
