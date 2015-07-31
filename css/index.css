@@ -75,6 +75,7 @@ body{
     border: none;
     outline: none;
     font-size: 25px;
+    background-color: transparent;
 }
 .content .contentBut1{
     left: -130px;
