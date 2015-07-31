@@ -1,0 +1,93 @@
+ul,li,span,label,a,p,button,img,input,div,body,h1,h2,h3,h4,h5,h6,s,i{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑", "宋体", sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.backBlack{
+    background-color: black;
+}
+.colorBlack{
+    color: white;
+}
+.colorWhite{
+    color: white;
+}
+.floatLeft{
+     float: left;
+}
+.floatRight{
+    float: right;
+}
+.textLeft{
+    text-align: left;
+}
+.textRight{
+    text-align: right;
+}
+.textCenter{
+    text-align: center;
+}
+.posAbs{
+    position: absolute;
+}
+.posRel{
+    position: relative;
+}
+.posFix{
+    position: fixed;
+}
+.disNone{
+    display: none;
+}
+.disBlock{
+    display: block;
+}
+.overHid{
+    overflow: hidden;
+}
+/*清楚浮动*/
+.Clear:after{
+    clear: both;
+    display: block;
+    content:" ";
+}
+.clearLeft{
+    clear: left;
+}
+.clearBoth{
+    clear: both;
+}
+.font14{
+    font-size: 14px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+.font25{
+    font-size: 25px;
+}
+.font30{
+    font-size: 30px;
+}
+.fontWeightNormal{
+     font-weight: normal;
+ }
+.fontWeightBold{
+    font-weight: bold;
+}
+.fontWeightBolder{
+    font-weight: bolder;
+}
+.box{
+    width: 100%;
+}

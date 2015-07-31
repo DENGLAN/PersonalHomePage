@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <div class="Nav box">
+        <div class="NavDiv">
+            <img class="ImgOne" src="images/HeadPortrait.jpg" alt=""/>
+            <img class="ImgTwo" src="images/name.png" alt=""/>
+            <!--给导航上需要点击移动到对应位置的元素加上相同的类名字，和命名自己的name与对应部分的ID相同-->
+            <a class="floatRight js_nav" name="contactMe">联系我</a>
+            <a class="floatRight js_nav" name="myExperience">我的经历</a>
+            <a class="floatRight js_nav" name="mySkill">我的技能</a>
+            <a class="floatRight js_nav" name="myGoodAt">我擅长的</a>
+            <a class="floatRight js_nav" name="myTask">我的任务</a>
+            <a class="floatRight js_nav" name="partialAchievement">部分成就</a>
+        </div>
+    </div>
+    <!--轮播-->
+    <h2 class="lunBoHead box textCenter" id="partialAchievement">部分成就</h2>
+    <div class="content" id="js-content">
+        <img class="contentImg" id="js-contentImg" src="" alt=""/>
+        <ul class="contentUl" id="js-contentUl"></ul>
+        <button class="contentBut1" id="js-contentBut1"></button>
+        <button class="contentBut2" id="js-contentBut2"></button>
+    </div>
+<!--轮播下的图片-->
+    <div class="box BackImg"></div>
+<!--我的任务-->
+    <div class="task box" id="myTask">
+        <div class="taskOne font20">我的任务</div>
+        <div class="taskTwo box textCenter">
+            <img src="images/whatwedo.png" alt=""/>
+        </div>
+    </div>
+<!--我擅长的-->
+    <div class="GoodAt box" id="myGoodAt">
+        <div class="taskOne font20">我擅长的</div>
+        <div class="box textCenter">
+            <img src="images/goodAt.png" alt=""/>
+        </div>
+    </div>
+    <!--我的技能-->
+    <div class="skills GoodAt box" id="mySkill">
+        <div class="taskOne font20">我的技能</div>
+        <div class="undergo box textCenter">
+            <div class="floatLeft">
+                精通 HTML + CSS 网页布局与样式，使用 HTML5 与 CSS3。
+            </div>
+            <div class="floatLeft">
+                掌握 JavaScript 语言、 善用 jQuery、Angular、BootStrap等框架。
+            </div>
+            <div class="floatLeft">
+                熟练运用网页设计制作软件 WebStorm<br />Brackets/Markman<br />HBuilder/AppCan<br />Photoshop等。
+            </div>
+            <div class="floatLeft">
+                熟悉 node.js、Express、模板引擎等。善用Axure RP工具实现网站原型设计。
+            </div>
+            <div class="floatLeft">
+                有一定的网页设计能力，偏向扁平化风格。
+                成功案例：
+                <a href="http://www.bp4u.cn/"> www.bp4u.cn</a>
+            </div>
+
+        </div>
+    </div>
+<!--我的经历-->
+    <div class="GoodAt box" id="myExperience">
+        <div class="taskOne font20">我的经历</div>
+        <div class="undergo box textCenter">
+            <div class="floatLeft">
+                时 间：2009.09-2012.06年 学历：大专 四川机电职业技术学院  专业：模具设计与制作
+            </div>
+            <div class="floatLeft">
+                时间：2013-至今 院 校 ： 西南科技大学 专 业 ： 经济学<br />学 历 ： 本科
+            </div>
+            <div class="floatLeft">
+                时间：2012-2013 公 司 ：中天钢铁集团 职 位 ：数控编程  <br />职 责 ：据图纸要求编制数控程序加工零件
+            </div>
+            <div class="floatLeft">
+                时 间：2013 .06-2013 .11 年  <br />Web前端工程师培训<br />成都朗沃信息技术有限公司
+            </div>
+            <div class="floatLeft">
+                时 间：2013-至今 后发商城 （义宇网络） 职位：Web前端工程师 职 责：根据产品需求完成前端的制作、开发、维护。
+            </div>
+        </div>
+    </div>
+    <!--联系我-->
+    <div class="GoodAt box" id="contactMe">
+        <div class="taskOne font20">联系我</div>
+        <div class="box textCenter">
+            <img src="images/tel.png" alt=""/>
+        </div>
+    </div>
+<!--底部-->
+<div class="lastDiv box">
+    <img src="images/pen.png" alt=""/>
+</div>
+    <!--回到顶部-->
+    <a id="BackTop" class="backTop"></a>
+</body>
+<script src="js/Viwepager.js"></script>
+<script src="js/index.js"></script>
+</html>
