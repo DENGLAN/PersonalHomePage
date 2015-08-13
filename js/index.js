@@ -2,7 +2,7 @@
  * Created by DL on 2015/7/30.
  */
 Viwepager("js-content","js-contentUl","js-contentBut1","js-contentBut2","js-contentImg",
-    ['images/1.png','images/2.png','images/3.png','images/4.png','images/5.png']);
+    ['images/1.png','images/2.png','images/3.png','images/4.png','images/5.png',"images/6.png"]);
 var old ="";
 $(function(){
     old = $($(".js_nav").get(5));
